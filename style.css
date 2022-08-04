@@ -7,7 +7,6 @@
 .rectangle-wrapper {
   position: relative;
   display: block;
-  margin-top: -20vh;
 }
 .rectangle {
   position: relative;
@@ -43,7 +42,7 @@
   bottom: 0;
   margin: 0 auto;
   width: 60%;
-  height: 90%;
+  height: 100%;
   left: 0;
   right: 0;
   transition: all 1s ease-in-out;
@@ -77,8 +76,11 @@
 .card > div > p:first-child {
   align-self: flex-start;
 }
+.card > div > p:last-child {
+  align-self: flex-end;
+}
 .animation .card {
-  bottom: 100px;
+  bottom: 140px;
   transform: scale(1.5);
   transition-delay: 0.8s;
   z-index: 4;
